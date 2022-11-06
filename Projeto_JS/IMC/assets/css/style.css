@@ -1,0 +1,65 @@
+:root {
+    --colorFundo: rgb(13, 115, 155);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--colorFundo); 
+}
+
+.container {
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+    width: 500px;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.imc {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.imc2 {
+    display: inline-block;
+}
+
+.peso input {
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.altura input {
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+
+button {
+    width: 100%;
+    background-color: var(--colorFundo);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+button:hover {
+    background-color: rgb(16, 153, 158);
+}
+
+.paragrafo-resultado{
+    background-color: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+.bad{
+    background-color: rgb(255, 86, 86);
+    padding: 10px 20px;
+}
+
+
